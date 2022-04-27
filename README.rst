@@ -74,6 +74,7 @@ Videos for Learning
 - `Intro <https://www.youtube.com/watch?v=v4eoYpCON_c>`_
 - `Basic Playlist <https://www.youtube.com/playlist?list=PLKiJs5wJSOOeNqPI6S2k4mtVqA_rDjrWc>`_
 - `PyCon US <https://www.youtube.com/watch?v=gWrc4xzm45Y>`_
-- ` <>`_
+- `Sphinx for Python Documentation <https://www.youtube.com/watch?v=tXWscUSYdBs>`_
+- `Pluralsight ReadTheDocs + Sphinx + GitHub + CI-CD <https://www.youtube.com/playlist?list=PLPDCBPbzk1AYghqYazE7Cxt3p7edml8I7>`_
 
 
