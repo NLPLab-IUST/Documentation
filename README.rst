@@ -65,3 +65,15 @@ Top Projects Documenting using reST
 
 - `Django <https://github.com/django/django/tree/main/docs>`_
 - `Flask <https://github.com/pallets/flask/tree/main/docs>`_
+
+
+====
+Videos for Learning 
+====
+
+- `Intro <https://www.youtube.com/watch?v=v4eoYpCON_c>`_
+- `Basic Playlist <https://www.youtube.com/playlist?list=PLKiJs5wJSOOeNqPI6S2k4mtVqA_rDjrWc>`_
+- `PyCon US <https://www.youtube.com/watch?v=gWrc4xzm45Y>`_
+- ` <>`_
+
+
