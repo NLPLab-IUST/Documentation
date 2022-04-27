@@ -3,13 +3,16 @@
 .. contents:: **Contents**
   :backlinks: none
 
-why Documenting?
-  new Users/Consumers
-  how to use it properly (how to configure it)
-  not breaking the code for new authors (+tests)
-  avoid questions (repeating QA)
+==========
+Documentation, why???
+==========
+#. New Users/Consumers
+#. How to use it properly (how to configure it)
+#. Not breaking the code for new Developers/Authors (+tests)
+#. avoid questions (repeating QA)
 
-wiki
+
+**A README should contain only the necessary information for developers to get started using and contributing to your project. Longer documentation is best suited for wikis.**
   
 sphinx-quickstart docs
 make html
@@ -43,6 +46,10 @@ Reference Links
 - `Basic Reference <https://github.com/DevDungeon/reStructuredText-Documentation-Reference>`_
 - `Basic reST syntax and cheatsheet <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_
 - `GitHub Pages <https://pages.github.com/>`_
+- `GitHub Wiki <https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis>`_
+- `GitHub README <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>`_
+- `Making README readable <https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md>`_
+- `Documenting your project with wikis <https://docs.github.com/en/communities/documenting-your-project-with-wikis>`_
 
 ========
 Top Projects Documenting using reST
