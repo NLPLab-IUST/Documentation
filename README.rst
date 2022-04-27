@@ -16,8 +16,10 @@ Documentation, why???
 .. TIP::
   **A README should contain only the necessary information for developers to get started using and contributing to your project. Longer documentation is best suited for wikis.**
   
+  
 .. DANGER::
   *it's not recommended at all but if you can'ttttttt get to the point with reST go with html `Stack Overflow <https://stackoverflow.com/questions/26366552/bold-code-in-rst>`_*
+  
   
 sphinx-quickstart docs
 make html
