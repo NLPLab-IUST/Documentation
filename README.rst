@@ -42,17 +42,11 @@ Reference Links
 - `reStructuredText Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 - `Basic Reference <https://github.com/DevDungeon/reStructuredText-Documentation-Reference>`_
 - `Basic reST syntax and cheatsheet <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_
+- `GitHub Pages <https://pages.github.com/>`_
 
-references : 
-https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
-https://docutils.sourceforge.io/docs/user/rst/quickref.html
-https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
-https://www.sphinx-doc.org/en/master/tutorial/index.html
-https://github.com/DevDungeon/reStructuredText-Documentation-Reference
-https://pages.github.com/
-https://docutils.sourceforge.io/rst.html
+========
+Top Projects Documenting using reST
+========
 
-
-other projects with Documentation : 
-django : https://github.com/django/django/tree/main/docs
-flask : https://github.com/pallets/flask/tree/main/docs
+- `Django <https://github.com/django/django/tree/main/docs>`_
+- `Flask <https://github.com/pallets/flask/tree/main/docs>`_
