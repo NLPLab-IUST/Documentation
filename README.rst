@@ -18,7 +18,7 @@ Documentation, why???
   
   
 .. DANGER::
-  *it's not recommended at all but if you can'ttttttt get to the point with reST go with html `Stack Overflow <https://stackoverflow.com/questions/26366552/bold-code-in-rst>`_*
+  *it's not recommended at all but if you can'ttttttt get to the point with reST go with html* `Stack Overflow <https://stackoverflow.com/questions/26366552/bold-code-in-rst>`_
   
   
 sphinx-quickstart docs
@@ -57,6 +57,7 @@ Reference Links
 - `GitHub README <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>`_
 - `Making README readable <https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md>`_
 - `Documenting your project with wikis <https://docs.github.com/en/communities/documenting-your-project-with-wikis>`_
+- `The reStructuredText Cheat Sheet: Syntax Reminders <https://gist.github.com/ionelmc/e876b73e2001acd2140f>`_
 
 ========
 Top Projects Documenting using reST
