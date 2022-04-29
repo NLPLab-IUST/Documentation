@@ -65,6 +65,7 @@ Top Projects Documenting using reST
 
 - `Django <https://github.com/django/django/tree/main/docs>`_
 - `Flask <https://github.com/pallets/flask/tree/main/docs>`_
+- `Conda <https://github.com/conda/conda>`_
 
 
 ====
