@@ -58,6 +58,8 @@ Reference Links
 - `Making README readable <https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md>`_
 - `Documenting your project with wikis <https://docs.github.com/en/communities/documenting-your-project-with-wikis>`_
 - `The reStructuredText Cheat Sheet: Syntax Reminders <https://gist.github.com/ionelmc/e876b73e2001acd2140f>`_
+- `reStructuredText Extension for Visual Studio Code <https://docs.restructuredtext.net/index.html>`_
+- `rst cheatsheet <https://bashtage.github.io/sphinx-material/rst-cheatsheet/rst-cheatsheet.html>`_
 
 ========
 Top Projects Documenting using reST
@@ -66,6 +68,8 @@ Top Projects Documenting using reST
 - `Django <https://github.com/django/django/tree/main/docs>`_
 - `Flask <https://github.com/pallets/flask/tree/main/docs>`_
 - `Conda <https://github.com/conda/conda>`_
+- `Python <https://github.com/python/devguide>`_
+- `Open Stack <https://github.com/openstack/nova/tree/master/doc>`_
 
 
 ====
@@ -78,4 +82,10 @@ Videos for Learning
 - `Sphinx for Python Documentation <https://www.youtube.com/watch?v=tXWscUSYdBs>`_
 - `Pluralsight ReadTheDocs + Sphinx + GitHub + CI-CD <https://www.youtube.com/playlist?list=PLPDCBPbzk1AYghqYazE7Cxt3p7edml8I7>`_
 
+
+===================
+Git Man
+===================
+
+- `Git Doc <https://git-scm.com/doc>`_
 
