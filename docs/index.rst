@@ -40,6 +40,13 @@ This Text contains **Bold \* Example \`**
    Cloud/*
 
 .. toctree::
+   :hidden:
+   :caption: Documentation:
+   :glob:
+
+   Documentation/*
+
+.. toctree::
    :maxdepth: 3
    :caption: Application:
    :hidden:
