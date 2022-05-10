@@ -2,11 +2,9 @@ Fake News Telegram Bot
 ++++++++++++++++++++++++++++++++
 
 
-table of contents
-======================
-About our bot
-Create a bot on Telegram
-Getting started
+.. contents:: **Table of Contents**
+
+
 
 
 About our bot
