@@ -53,6 +53,7 @@ This Text contains **Bold \* Example \`**
 
    Application/app1
 
+
 .. toctree::
    :maxdepth: 3
    :caption: Fake News:
