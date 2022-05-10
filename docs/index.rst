@@ -54,6 +54,14 @@ This Text contains **Bold \* Example \`**
    Application/app1
 
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Fake News:
+   :hidden:
+
+   FakeNews/TelegramBot
+
+
 Indices and tables
 ==================
 
