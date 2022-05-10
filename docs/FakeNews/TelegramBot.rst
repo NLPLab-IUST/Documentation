@@ -35,7 +35,7 @@ You will need to ask him using the / prefix to start a command, once you start t
 .. literalinclude:: BotFatherOutput.txt
 
 
-Getting started
+Getting started 
 ------------------
 First of all we need to create a virtualenv for this project. if you don't have anaconda take a look at this `website <https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/>`_, otherwise go `here <https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/>`_
 
