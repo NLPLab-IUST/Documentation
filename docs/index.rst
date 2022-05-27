@@ -61,6 +61,13 @@ This Text contains **Bold \* Example \`**
 
    FakeNews/TelegramBot
 
+.. toctree::
+   :maxdepth: 3
+   :caption: PVQA:
+   :hidden:
+
+   PVQA/pvqa-generateQA/GenerateQA.rst
+
 
 Indices and tables
 ==================
