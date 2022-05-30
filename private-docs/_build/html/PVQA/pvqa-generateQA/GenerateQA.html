@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenerateQA &mdash; Private Documentations v1.0.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Welcome to Private Documentations’s documentation!" href="../../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Private Documentations
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">PVQA:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GenerateQA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pinterest-batch-downloader">Pinterest Batch Downloader</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#getting-started">Getting started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-usage">Example Usage</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Private Documentations</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>GenerateQA</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/PVQA/pvqa-generateQA/GenerateQA.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="generateqa">
+<h1><a class="toc-backref" href="#id1">GenerateQA</a><a class="headerlink" href="#generateqa" title="Permalink to this headline"></a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title"><strong>Table of Contents</strong></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#generateqa" id="id1">GenerateQA</a></p>
+<ul>
+<li><p><a class="reference internal" href="#pinterest-batch-downloader" id="id2">Pinterest Batch Downloader</a></p>
+<ul>
+<li><p><a class="reference internal" href="#getting-started" id="id3">Getting started</a></p></li>
+<li><p><a class="reference internal" href="#usage" id="id4">Usage</a></p></li>
+<li><p><a class="reference internal" href="#example-usage" id="id5">Example Usage</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>In this project, we implement three modules to provide PVQA dataset:</p>
+<ol class="arabic simple">
+<li><p>Pinterest Image Downloader</p></li>
+<li><p>Question Generator</p></li>
+<li><p>Full-sentence Answer Generator</p></li>
+</ol>
+<p>The repository for this project is currently private.</p>
+<section id="pinterest-batch-downloader">
+<h2><a class="toc-backref" href="#id2">Pinterest Batch Downloader</a><a class="headerlink" href="#pinterest-batch-downloader" title="Permalink to this headline"></a></h2>
+<p>Batch download images/videos from a Pinterest user profile/board/section/pin.</p>
+<p>This is an extension to <a class="reference external" href="https://github.com/limkokhole/pinterest-downloader">https://github.com/limkokhole/pinterest-downloader</a> to batch download images/videos from multiple links and supports usage of Persian letters in urls.</p>
+<section id="getting-started">
+<h3><a class="toc-backref" href="#id3">Getting started</a><a class="headerlink" href="#getting-started" title="Permalink to this headline"></a></h3>
+<p>Install the requirements:</p>
+<p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p>
+</section>
+<section id="usage">
+<h3><a class="toc-backref" href="#id4">Usage</a><a class="headerlink" href="#usage" title="Permalink to this headline"></a></h3>
+<p>The links can be provided as positional arguments when running the pinterest-batch-downloader.py file,
+or written in a text file on each line (with option -file or --file).</p>
+<p>Other options will be applied to all of the links given.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>python3 pinterest-batch-downloader.py --help
+<span class="go">usage: pinterest-batch-downloader.py [-h] [-file FILE] [-d DIR] [-j THREAD_MAX] [-c CUT] [-bt] [-lt] [-f] [-rs] [-ua]</span>
+<span class="go">                                [-es] [-io] [-vo] [-ps HTTPS_PROXY] [-p HTTP_PROXY]</span>
+<span class="go">                                [path ...]</span>
+
+<span class="go">Download ALL board/section from 🅿️interest by username, username/boardname, username/boardname/section or link.</span>
+<span class="go">Support image and video. Filename compose of PinId_Title_Description_Date.Ext. PinId always there while the rest is</span>
+<span class="go">optional. If filename too long will endswith ... and you can check details in log-pinterest-downloader.log file.</span>
+
+<span class="go">positional arguments:</span>
+<span class="go">path                  Pinterest username, or username/boardname, or username/boardname/section, or relevant link(</span>
+<span class="go">                    /pin/ may include created time ).can be multiple.</span>
+
+<span class="go">options:</span>
+<span class="go">-h, --help            show this help message and exit</span>
+<span class="go">-file FILE, --file FILE</span>
+<span class="go">                    Path to a text file that has the pinterest profile/board/section links on each line.</span>
+<span class="go">-d DIR, --dir DIR     Specify folder path/name to store. Default is &quot;images&quot;.</span>
+<span class="go">-j THREAD_MAX, --job THREAD_MAX</span>
+<span class="go">                    Specify maximum threads when downloading images. Default is number of processors on the</span>
+<span class="go">                    machine, multiplied by 5.</span>
+<span class="go">-c CUT, --cut CUT     Specify maximum length of &quot;_TITLE_DESCRIPTION_DATE&quot;(exclude ...) in filename.</span>
+<span class="go">-bt, --board-timestamp</span>
+<span class="go">                    Suffix board directory name with unique timestamp.</span>
+<span class="go">-lt, --log-timestamp  Suffix log-pinterest-downloader.log filename with unique timestamp. Default filename is log-</span>
+<span class="go">                    pinterest-downloader.log. Note: Pin id without Title/Description/Link/Metadata/Created_at will</span>
+<span class="go">                    not write to log.</span>
+<span class="go">-f, --force           Force re-download even if image already exist. Normally used with -rs</span>
+<span class="go">-rs, --re-scrape      Default is only fetch new images since latest(highest) Pin ID local image to speed up update</span>
+<span class="go">                    process. This option disable that behavior and re-scrape all, use it when you feel missing</span>
+<span class="go">                    images somewhere or incomplete download. This issue is because Pinterest only lists reordered</span>
+<span class="go">                    as you see in the webpage which possible newer images reorder below local highest Pin ID image</span>
+<span class="go">                    and missed unless fetch all pages.</span>
+<span class="go">-ua, --update-all     Update all folders in current directory recursively based on theirs urls-pinterest-</span>
+<span class="go">                    downloader.urls. New section will not download. New board may download if previously download</span>
+<span class="go">                    by username. Options other than -c, -j, -rs, -io/vo, -ps/p will ignore. -c must same if</span>
+<span class="go">                    provided previously or else filename not same will re-download. Not recommend to use -c at</span>
+<span class="go">                    all.</span>
+<span class="go">-es, --exclude-section</span>
+<span class="go">                    Exclude sections if download from username or board.</span>
+<span class="go">-io, --image-only     Download image only. Assumed -rs</span>
+<span class="go">-vo, --video-only     Download video only. Assumed -rs</span>
+<span class="go">-ps HTTPS_PROXY, --https-proxy HTTPS_PROXY</span>
+<span class="go">                    Set proxy for https.</span>
+<span class="go">-p HTTP_PROXY, --http-proxy HTTP_PROXY</span>
+<span class="go">                    Set proxy for http.</span>
+</pre></div>
+</div>
+<p>Check the <a class="reference external" href="https://github.com/limkokhole/pinterest-downloader">pinterest-downloader</a>’s documentation for more info.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Downloading files without the cut option (-c or --cut) may make filenames too long which in turn may cause problems when moving/copying the file to another directory. It’s advised to specify a maximum length for the filenames.</p>
+</div>
+</section>
+<section id="example-usage">
+<h3><a class="toc-backref" href="#id5">Example Usage</a><a class="headerlink" href="#example-usage" title="Permalink to this headline"></a></h3>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>python3 pinterest-batch-downloader.py <span class="c1"># Prompt for insert path. Note: Only support python 3, not python 2</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py -file mylinks.txt
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py -file mylinks.txt https://www.pinterest.com/antonellomiglio/computer/ <span class="c1">#Can use both the positional arguments and text file to pass the url paths.</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/antonellomiglio/computer/ https://www.pinterest.com/Foodrecipessmith/food-recipes/
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/antonellomiglio/computer/ -d comp
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py -d comp https://www.pinterest.com/antonellomiglio/computer/ <span class="c1"># or path in last</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/antonellomiglio/computer/ -bt -lt -d comp -f -rs <span class="c1"># various options</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/antonellomiglio/computer/ -c <span class="m">40</span> <span class="c1"># Default already good enough</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/antonellomiglio/computer/ -j <span class="m">666</span> <span class="c1"># Default already fast enough</span>
+<span class="gp">$ </span>python3 pinterest-batch-downloader.py https://www.pinterest.com/Foodrecipessmith/food-recipes/ -ps <span class="s2">&quot;socks4://123.123.123.123:12345&quot;</span> -p <span class="s2">&quot;socks4://123.123.123.123:12345&quot;</span> <span class="c1"># set proxies</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../index.html" class="btn btn-neutral float-left" title="Welcome to Private Documentations’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, MohammadMahdi Javid.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
