@@ -13,6 +13,13 @@ Welcome to Private Documentations's documentation!
 
    PVQA/pvqa-generateQA/GenerateQA.rst
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Image Captioning:
+   :hidden:
+
+   ImageCaptioning/Datasets.rst
+
 Indices and tables
 ==================
 
