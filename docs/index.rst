@@ -61,7 +61,15 @@ This Text contains **Bold \* Example \`**
 
    FakeNews/TelegramBot
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Configure SSH:
+   :hidden:
 
+   MLOPS/ssh-config/Generate-key
+   MLOPS/ssh-config/Add-key
+   MLOPS/ssh-config/Deploy-key
+   
 Indices and tables
 ==================
 
