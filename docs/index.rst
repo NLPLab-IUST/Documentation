@@ -61,6 +61,14 @@ This Text contains **Bold \* Example \`**
 
    FakeNews/TelegramBot
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Ansible
+   :hidden:
+
+   Ansible/setupAnsible
+   Ansible/writePlaybook
+
 
 Indices and tables
 ==================
