@@ -62,6 +62,15 @@ This Text contains **Bold \* Example \`**
    FakeNews/TelegramBot
 
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Termius:
+   :hidden:
+
+   Termius/add-key
+   Termius/create-host
+
+
 Indices and tables
 ==================
 
