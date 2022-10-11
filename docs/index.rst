@@ -69,6 +69,7 @@ This Text contains **Bold \* Example \`**
 
    Termius/add-key
    Termius/create-host
+   Termius/login-with-private-key
 
 
 Indices and tables
